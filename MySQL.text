@@ -1,0 +1,40 @@
+-- create database college ;
+
+-- create table degrees(
+-- id int auto_increment,
+-- name varchar(30),
+-- projects int,
+-- primary key (id)
+-- );
+
+-- create table students(
+-- id int auto_increment,
+-- name varchar(30),
+-- age int,
+-- degree_id int,
+-- degree_phase int,
+-- primary key (id),
+-- foreign key (degree_id) references degrees(id)
+-- );
+
+-- insert into degrees(name , projects)
+-- values("Psychology", 3),
+-- ("Social Science", 5),
+-- ("Computer Science", 8),
+-- ("Design and Art", 6),
+-- ("Humanities", 3),
+-- ("Accounting", 4),
+-- ("Economics", 7)
+
+-- insert into students(name , age ,degree_id, degree_phase)
+-- values("Adi", 19 , 1 , 1),
+-- ("Shlomi", 20 , 3 , 2),
+-- ("Eden", 22 , 6 , 1),
+-- ("Dana", 28 , 7 , 2),
+-- ("Yosi", 25 , 5 , 2),
+-- ("Dina", 32 , 2 , 3),
+-- ("Reut", 24 , 4 , 1),
+-- ("Roei", 23 , 3 , 1)
+
+
+
